@@ -1,0 +1,90 @@
+/* ------------------------
+  1. General
+  ---------------------- */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Tahoma, arial, sans-serif;
+    color: #434343;
+    font-size: 1.6em;
+    background: #dae3e7;
+}
+
+
+/* ------------------------
+  2. Grid & Layout
+  ---------------------- */
+
+.header {
+    min-height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    min-height: 100%;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+.footer, .wrapper:after {
+    height: 40px;
+}
+
+.middle {}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    margin-left: 70%;
+    padding-left: 30px;
+}
+
+.footer {
+    background: #32383e;
+    color: #fff;
+    height: 40px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-inner {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.clearfix:after, .clearfix:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* ------------------------
+  3. Text
+  ---------------------- */
+
+.title {
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 2.2em;
+    font-weight: bold;
+}
